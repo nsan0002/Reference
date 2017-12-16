@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LOSE IT!</string>
+    <string name="startCalc">Start Losing It!</string>
+    <string name="loginUser">Login to Lose It</string>
+    <string name="loginText">LOGIN</string>
+    <string name="loginEdit"> </string>
+    <string name="passwordText">PASSWORD</string>
+    <string name="passwordEdit"> </string>
+    <string name="userSignIn">SIGN IN</string>
+    <string name="foodListView"> </string>
+    <string name="foodInfoT">FOOD INFO</string>
+    <string name="foodInfoEdit"> </string>
+    <string name="timeText">TIME INFO</string>
+    <string name="timeEdit"> </string>
+    <string name="addB">ADD INFO</string>
+
+
+</resources>

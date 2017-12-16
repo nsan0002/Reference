@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jo_1.reference_fp.LoginPageActivity"
+    android:orientation="vertical"
+    android:background="@drawable/signin" >
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loginText" />
+
+    <EditText
+        android:id="@+id/loginEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:text="@string/loginEdit" />
+
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/passwordText" />
+
+    <EditText
+        android:id="@+id/passwordEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:text="@string/passwordEdit" />
+
+    <Button
+        android:id="@+id/userSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userSignIn"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>
+
+
