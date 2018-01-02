@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.jo_1.reference_fp.finalproject.CalcActivity;
+
 public class CommenceActivity extends Activity {
 
     @Override
