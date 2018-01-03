@@ -38,7 +38,7 @@ public class FoodNutritionInformationTracker extends ToolbarActivity {
         datePicker.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.i(TAG, "running buttons is clicked");
+                Log.i(TAG, "DATE button is clicked");
                 Intent intent=new Intent(view.getContext(), CalcActivity.class);
                 startActivity(intent);
             }

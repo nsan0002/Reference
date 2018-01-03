@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.jo_1.reference_fp.finalproject.CalcActivity;
+import com.example.jo_1.reference_fp.finalproject.FoodNutritionInformationTracker;
 
 public class CommenceActivity extends Activity {
 
@@ -19,7 +20,7 @@ public class CommenceActivity extends Activity {
         startCalc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CommenceActivity.this, CalcActivity.class);
+                Intent i = new Intent(CommenceActivity.this, FoodNutritionInformationTracker.class);
                 startActivityForResult(i, 10);
             }
 

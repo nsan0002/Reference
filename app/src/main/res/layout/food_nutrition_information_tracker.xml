@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="271dp" />
+    <TextView
+        android:id="@+id/textViewSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/summary"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:id="@+id/entryTypeSummary"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="#ff408c3a"
+            android:gravity="right">  
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.59"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+
+        <Button
+            android:id="@+id/totalCaloriesB"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:layout_weight="0.75"
+            android:drawableLeft="@drawable/cals"
+            android:text="@string/totalCaloriesB"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/totalFatB"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:layout_weight="0.75"
+            android:drawableLeft="@drawable/high_fat_foods"
+            android:text="@string/totalFatB"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/totalCarbohydratesB"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:layout_weight="0.75"
+            android:drawableLeft="@drawable/carbohydrates"
+            android:text="@string/totalCarbohydratesB"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/totalCholesterolB"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:layout_weight="0.75"
+            android:drawableLeft="@drawable/foods_high_cholesterol"
+            android:text="@string/totalCholesterolB"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+
+
+        <Button
+            android:id="@+id/totalProteinB"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:layout_weight="0.75"
+            android:drawableLeft="@drawable/high_protein_foods"
+            android:text="@string/totalProteinB"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include layout="@layout/activity_toolbar" />
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+

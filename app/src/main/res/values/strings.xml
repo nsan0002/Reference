@@ -13,6 +13,70 @@
     <string name="timeText">TIME INFO</string>
     <string name="timeEdit"> </string>
     <string name="addB">ADD INFO</string>
+    <string name="title_activity_test_tool_bar">TestToolBar</string>
+    <string name="toolbar"> </string>
+    <string name="my_toolbar">Settings</string>
+    <string name="testToolBar">Test ToolBar</string>
+    <string name="about">About</string>
+    <string name="floating"> </string>
+    <string name="action_one">Option 1</string>
+    <string name="action_two">Option 2</string>
+    <string name="action_three">Option 2</string>
+    <string name="title_activity_test_tool_bar1">TestToolBar1</string>
+    <string name="newMessage"> </string>
+    <string name="deleteB">DELETE THIS INFO</string>
+    <string name="messageId"> </string>
+    <string name="tMessage"> </string>
+    <string name="cWeather">  </string>
+    <string name="cTemp">  </string>
+    <string name="minTemp">  </string>
+    <string name="maxTemp">  </string>
+    <string name="progressB">  </string>
+    <string name="weatherB">Weather Forecast</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+
+
+    <string name="textViewRunningComment"> </string>
+
+
+
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="pick_color">Do you want to go back? </string>
+
+    <string name="dialog">Warning: data will be permanently lost!</string>
+    <string name="dialog_fire_missiles">Welcome alert dialog message </string>
+    <string name="title_activity_toolbar">ToolbarActivity</string>
+    <string name="summary">Summary</string>
+    <string name="running">Running</string>
+    <string name="List_of_activities">List of activities</string>
+    <string name="Detailed_information">Detailed_information</string>
+    <string name="Comment">Comment</string>
+    <string name="Time_spent">Time spent</string>
+    <string name="monthlySummary">Monthly Summary</string>
+    <string name="avgRunningLabel">Average Running(min)</string>
+    <string name="summaryDate"> </string>
+    <string name="avgFoodLabel"> </string>
+
+
+
+    <string name="totalCaloriesB">TOTAL CALORIES</string>
+    <string name="totalFatB">TOTAL FATS</string>
+    <string name="totalCarbohydratesB">TOTAL CARBOHYDRATES</string>
+    <string name="totalCholesterolB">TOTAL CHOLESTEROL</string>
+    <string name="totalProteinB">TOTAL PROTEIN</string>
+
+    <string name="customMsg"> </string>
+
 
 
 </resources>

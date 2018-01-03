@@ -1,0 +1,46 @@
+<RelativeLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.jo_1.reference_fp.MessageFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tMessage"
+            android:id="@+id/tMessage"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:textSize="23sp"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/messageId"
+            android:id="@+id/messageId"
+            android:layout_below="@+id/tMessage"
+            android:layout_alignStart="@+id/tMessage"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:textSize="23sp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deleteB"
+            android:id="@+id/deleteB"
+            android:layout_gravity="left|bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:textSize="23sp"/>
+
+
+    </RelativeLayout>
+
+

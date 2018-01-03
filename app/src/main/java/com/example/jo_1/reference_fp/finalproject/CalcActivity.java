@@ -93,14 +93,14 @@ public class CalcActivity extends ToolbarActivity {
         foodInfoEdit = (EditText)findViewById(R.id.foodInfoEdit);
         editTextOnFocusChangeListener(foodInfoEdit);
 
-        timeEdit = (EditText)findViewById(R.id.editTextRunningTime);
+        timeEdit = (EditText)findViewById(R.id.timeEdit);
         editTextOnFocusChangeListener(timeEdit);
 
         List<String> convertString;
-        ListView list = (ListView) findViewById(R.id.msgRunningListView);
+        ListView list = (ListView) findViewById(R.id.foodListView);
         fNAdapter = new FoodListAdapter(this);
         list.setAdapter(fNAdapter);
-        addB = (Button)findViewById(R.id.addButtonRunning);
+        addB = (Button)findViewById(R.id.addB);
         mydbase = new FoodDatabaseHelper(context);
         mydbase.open();
 

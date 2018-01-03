@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.jo_1.lab8.TestToolBar">
+
+
+        <item android:id="@+id/action_one"
+            android:title="@string/action_one"
+            android:icon="@drawable/icons8_playstore_50"
+            android:orderInCategory="101"
+            app:showAsAction="always" />
+
+
+        <item android:id="@+id/action_two"
+            android:title="@string/action_two"
+            android:icon="@drawable/icons8_ebay_50"
+            android:orderInCategory="101"
+            app:showAsAction="always" />
+
+
+        <item android:id="@+id/action_three"
+            android:title="@string/action_three"
+            android:icon="@drawable/icons8_christmas_tree_50"
+            android:orderInCategory="101"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/about"
+            android:orderInCategory="100"
+            android:title="@string/about"
+            app:showAsAction="never" />
+
+
+    </menu>

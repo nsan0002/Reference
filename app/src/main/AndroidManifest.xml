@@ -9,9 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CommenceActivity" />
-        <activity android:name=".LoginPageActivity" />
-        <activity android:name=".CalcActivity"></activity>
+        <activity android:name=".CommenceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginPageActivity"></activity>
+        <activity android:name=".MessageDetails" />
+        <activity android:name=".finalproject.DatabaseRetrieveActivity" />
+        <activity android:name=".finalproject.ToolbarActivity" />
+        <activity android:name=".finalproject.CalcActivity" />
+        <activity android:name=".finalproject.FoodNutritionInformationTracker" />
+
+
+
     </application>
 
 </manifest>

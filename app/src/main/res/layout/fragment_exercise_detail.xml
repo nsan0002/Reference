@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dailySummaryLabel"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center_horizontal"
+        android:text="@string/Detailed_information"
+        android:textSize="20dp"/>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comments"
+                android:id="@+id/messageView"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:textSize="20dp"
+                android:padding="3dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duration"
+                android:id="@+id/durationId"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:padding="3dip"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/deleteMsg"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_delete" />
+</LinearLayout>
